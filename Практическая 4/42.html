@@ -1,0 +1,33 @@
+<body>
+<script>
+arr=new Array(10);s=' ';
+for (i=0;i<arr.length;i++)
+{
+y=Math.random()*10+10;
+arr[i]=Math.floor(y);
+s=s+' '+arr[i];
+}
+var ii=0;
+var flag=-1;
+for (i=0;i<arr.length;i++)
+{
+if(arr[i]%10==0)
+{
+flag=1;
+ii=i;
+break;
+}
+}
+if(flag=1)
+{
+alert(ii);
+}
+else
+{
+alert("chisla priniali islam");
+}
+
+
+
+</script>
+</body>
