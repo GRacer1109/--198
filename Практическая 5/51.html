@@ -1,0 +1,22 @@
+<body>
+<script>
+var mas=[];
+for(i=0;i<10;i++)
+{
+mas[i]=prompt("Vvedite chisla");
+}
+flag=-1;
+for(i=0;i<10;i++)
+{
+if((mas[i]%7==0)&&(mas[i]!=0))
+{
+flag=i;
+break;
+}
+}
+
+if(flag>=0)alert("chislo "+mas[flag]+" na pozicii "+flag);
+else alert("Nety takix");
+
+</script>
+</body>
