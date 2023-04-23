@@ -1,0 +1,25 @@
+<body>
+<script>
+s=prompt('Vvedite chislo');
+n=parseInt(s);
+s1='<h3>';
+s3='</h3>';
+if(n<100 || n>999)
+{
+s2=' Ne trexznachnoe';
+}
+else
+{
+if(s[0]==s[2])
+{
+s2=' Nachinaetsa i zakanchivaetsa odinakovimi ciframi';
+}
+else
+{
+s2=' Net';
+}
+}
+st=s1+s+s2+s3;
+document.write(st);
+</script>
+</body>
