@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="text" type="checkbox" checked="">
+<a href='#' onclick="func()">жми жми жми сюда</a>      
+<script>
+function func() {
+	var elem = document.getElementById('text');
+	if (elem.checked) {
+		elem.checked = false;
+ 	} else {
+		elem.checked = true;
+ 	}
+  }     
+</script>
+</body>
+</html>
